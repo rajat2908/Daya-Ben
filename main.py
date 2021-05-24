@@ -11,11 +11,11 @@ from replit import db
 
 import asyncio
 
-bot = commands.Bot(command_prefix='daya ')
+bot = commands.Bot(command_prefix=["daya", "d!"])
 
 newline = '\n'
 
-filterd_words = ['Fuck','fuck','dick', 'Dick', 'Bitch', 'bitch']
+filterd_words = ['gali', 'dena' , 'buri' 'bat' 'google se yaha daliya dal dena' ]
 
 @bot.event
 
